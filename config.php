@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
+    'title' => 'Jeremy Chang',
     'description' => 'Website description.',
     'collections' => [],
 ];

@@ -9,8 +9,12 @@
     "devDependencies": {
         "laravel-mix": "^6.0.39",
         "laravel-mix-jigsaw": "^1.5.0",
-        "postcss": "^8.2.4",
+        "postcss": "^8.4.12",
         "postcss-import": "^14.0.0",
+        "postcss-nested": "^5.0.6",
         "tailwindcss": "^2.0.2"
+    },
+    "dependencies": {
+        "html2pdf.js": "^0.10.1"
     }
 }

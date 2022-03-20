@@ -9,8 +9,14 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body class="text-gray-900 font-sans antialiased">
+    <body>
+        <div id="print-area">
+        <div id="page">
         @include('_partials.header')
-        @yield('body')
+        <main class="break-words lg:max-w-5xl lg:py-8 lg:px-24 lg:my-0 lg:mx-auto md:py-8 md:px-16 md:text-lg py-8 px-4 text-base">
+            @yield('body')
+        </main>
+        </div>
+        </div>
     </body>
 </html>
