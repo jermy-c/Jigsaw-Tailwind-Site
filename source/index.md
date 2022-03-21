@@ -24,7 +24,7 @@ Design, Hardware Fundamentals
 
 ### WORK EXPERIENCE
 
-**Web Developement Intern,** Honduras, Mar. 2022 - present
+**Web Development Intern,** Honduras, Mar. 2022 - present
 
 - Build client websites 
   - Static HTML website 
