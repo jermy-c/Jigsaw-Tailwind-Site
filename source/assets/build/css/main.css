@@ -31886,17 +31886,11 @@ video {
 }
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71;
+  color: var(--body-text-color);
 }
 
 .btn {
-  display: inline-block;
-  margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
@@ -31912,11 +31906,6 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.3);
   }
-
-.btn {
-  margin-left: 1rem;
-  padding: 3rem;
-}
 
 main h1,
     main h2,

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body>
+    <body class="p-0 m-0 text-base ">
         <div id="print-area">
         <div id="page">
         @include('_partials.header')
@@ -18,5 +18,7 @@
         </main>
         </div>
         </div>
+
+        @include('_partials.footer')
     </body>
 </html>
