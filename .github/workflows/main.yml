@@ -28,6 +28,6 @@ jobs:
         git add build_production -f && git commit -m "Build for deploy"
     - name: Deploy website
       run: |
-        git remote set-url origin https://${{secrets.DEPLOY_KEY}}@github.com/jermy-c/Jigsaw-Tailwind-Site.git
+        git remote set-url origin https://${{secrets.Build_and_Deploy}}@github.com/jermy-c/Jigsaw-Tailwind-Site.git
         git subtree split --prefix build_production -b gh-pages
         git push -f origin gh-pages:gh-pages
