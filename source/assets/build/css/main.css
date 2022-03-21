@@ -31882,6 +31882,7 @@ video {
 }
 
 :root {
+  --primary-color: rgb(4, 120, 87);
   --body-text-color: #606c71;
 }
 
@@ -31916,7 +31917,7 @@ main h1,
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: darkgreen;
+    color: var(--primary-color);
   }
 
 main p {
@@ -32018,7 +32019,7 @@ main li {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 @media (min-width: 640px){

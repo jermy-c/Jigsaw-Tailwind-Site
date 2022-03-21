@@ -1,3 +1,4 @@
-<footer class="pt-8 mt-8 border-t text-sm lg:text-base md:text-base">
-    <span class="block font-bold"><a href="{{ $page->repository }}">{{ $page->repoName }}</a> is maintained by <a href="{{ $page->ownerUrl }}">{{ $page->title }}</a></span>
+<footer class="pt-8 mt-8 border-t lg:text-base lg:max-w-5xl lg:py-8 lg:px-24 lg:my-0 lg:mx-auto md:py-8 md:px-16 md:text-lg py-8 px-4 text-base">
+    <span class="block font-bold"><a href="{{ $page->repository }}" class="text-green-700 hover:underline">{{ $page->repoName }}</a> is maintained by <a href="{{ $page->ownerUrl }}" class="text-green-700 hover:underline">{{ $page->title }}</a></span>
+    <span>Made with <a href="https://jigsaw.tighten.com/" class="hover:underline text-green-700">Jigsaw</a> and <a href="https://tailwindcss.com/" class="text-green-700 hover:underline">Tailwind CSS</a>.</span>
 </footer>
