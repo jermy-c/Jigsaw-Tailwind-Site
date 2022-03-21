@@ -6,8 +6,8 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <link rel="stylesheet" href=".{{ mix('css/main.css', 'assets/build') }}">
+        <script defer src=".{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body class="p-0 m-0 text-base ">
         <div id="print-area">
